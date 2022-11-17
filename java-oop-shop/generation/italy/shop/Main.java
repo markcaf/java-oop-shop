@@ -1,29 +1,8 @@
 package generation.italy.shop;
 
-import java.util.Scanner;
-
 public class Main {
 
 	public static void main(String[] args) {
-		
-		/*
-		 * Metodo per far inserire i dati all'utente 
-		 * 
-			Scanner sc = new Scanner(System.in);
-			
-			System.out.print("Nome prodotto: ");
-			String nome = sc.nextLine();
-			
-			System.out.print("Descrizione prodotto: ");
-			String descrizione = sc.nextLine();
-			
-			System.out.print("Prezzo prodotto: ");
-			int prezzo = sc.nextInt();
-			
-			Prodotto p = new Prodotto(nome, descrizione, prezzo);
-			System.out.println(p);
-		*
-		*/
 		
 		Prodotto prodotto1 = new Prodotto(
 				"FENDER Squier Classic Vibe '70s Telecaster Deluxe",
