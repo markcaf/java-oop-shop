@@ -19,4 +19,13 @@ public class Prodotto {
 		this.codice = rnd.nextInt(00000,99999);
 	}
 	
+	public int mostraPrezzo() {
+		return prezzo;
+	}
+	
+	public int prezzoConIva() {
+		int prezzoIva = prezzo + ((prezzo * iva) / 100);
+		return prezzoIva;
+	}
+	
 }
